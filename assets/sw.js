@@ -1,9 +1,9 @@
-var cacheName = 'egui-template-pwa';
+var cacheName = 'param-tuner-pwa';
 var filesToCache = [
   './',
   './index.html',
-  './eframe_template.js',
-  './eframe_template_bg.wasm',
+  './param_tuner.js',
+  './param_tuner_bg.wasm',
 ];
 
 /* Start the service worker and cache all of the app's content */
