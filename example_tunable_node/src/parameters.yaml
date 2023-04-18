@@ -1,0 +1,17 @@
+example:
+  red: {
+    type: int,
+    default_value: 0,
+    description: "Red color value for the background, 8-bit",
+    validation: {
+      bounds<>: [0, 255]
+    }
+  }
+  alpha: {
+    type: double,
+    default_value: 0.0,
+    description: "Alpha, 0.0 to 1.0",
+    validation: {
+      bounds<>: [0.0, 1.0]
+    }
+  }
